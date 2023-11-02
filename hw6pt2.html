@@ -8,16 +8,19 @@
 <body>
 <h1>Homework 6 pt 2: Census data ratios and categories</h1>
 <h2>Nicholas Pell</h2>
-<h3>This is a map of the population of people within each County that is over 3 years old and enrolled in school. The darker the county the fewer people enrolled in school in that county and vice versa for the lighter counties. From the data we can see that the more Northern counties have more people enrolled in education than the more Southern counties.</h3>
+<h3>These are 3 different modes of QGIS projection for a ratio of Illinois county data. The ratio shows the percentage of people 25 years old and older within each county that have acheived a Bachelor's degree or higher education. The ratio put the population of people 25 years old and older that had attained a Bachelor's degree or higher education in each county over the population of people in each county that are 25 years old or older.</h3>
 <!-- Your map goes here -->
+<h3>This first map displays the data using an equal interval mode of projection. This categorizes the counties into 5 groups each of which being of an equal size. This is good if the data is evenly separated. The equal interval projection falls short when all of the data falls into similar intervals and then determining the difference between them becomes tedious or impossible.</h3>
 <a href="Illinois_Equal_Interval.png">
     <img src="Illinois_Equal_Interval.png" alt="Illinois Equal Interval Projection" width='500px'>
     </a>
 
+    <h3>This map is an equal count mode of projection. This separates the data into quantiles having an equal amount of counties in each interval. This is once again good for even data and shows where similarities and separations occur. This projection does a poor job of displaying outliers in the data as they must be fit into a quantile and then someone studying the projection has no way of knowing the data point is an outlier.</h3>
     <a href="Illinois_Equal_Count.png">
         <img src="Illinois_Equal_Count.png" alt="Illinois Equal Count Projection" width='500px'>
         </a>
 
+        <h3>The natural breaks mode of projection is shown in this map. This separates the data into specified intervals, in this case 5, based on the best separation points as decided by an algorithm. This method is good for showing outliers and big jumps in data. This method does a poor job with data that does not have large variance as the groups will not always be even.</h3>
         <a href="Illinois_Natural_Breaks.png">
             <img src="Illinois_Natural_Breaks.png" alt="Illinois Natural Breaks Projection" width='500px'>
             </a>    
