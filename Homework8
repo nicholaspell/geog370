@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing Analysis</h1>
+<h2>Nicholas Pell</h2>
+<h3>The map I constructed displays what percent of each states total energy consumption comes from their transportation sector. The data is separated into five quantiles with an equal number of states in each. The idea behind choosing this map was to see which states should be prioritizing and promoting alternative transportation methods that would lower energy consumption.</h3>
+<!-- Your map goes here -->
+<a href="Energy_Consumption.png">
+    <img src="Energy_Consumption.png" alt="Portion of Energy Consumption Used by The Transportation Sector by State" width='700px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="energyconsumption.csv"> CSV dataset </a>
+    <p></p>
+    <a href="energyconsumption.geojson"> Link to shapefile </a>
+    <p></p>
+    <a href="https://opendata.dc.gov/datasets/DCGIS::metro-bus-stops/about"> Metro Data </a>
+    <p></p>
+    <a href="https://opendata.dc.gov/datasets/DCGIS::night-club/about"> Night Club Data </a>
+
+</body>
+</html>
